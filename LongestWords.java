@@ -44,7 +44,8 @@ public class LongestWords
       {
          e.printStackTrace();
       }
-      inFile.close();      
+      inFile.close();
+      System.out.println("Enter a string of random characters: ");      
       Scanner scan = new Scanner(System.in);
       String thing = scan.nextLine();
       ArrayList<String> list = new ArrayList<>();
